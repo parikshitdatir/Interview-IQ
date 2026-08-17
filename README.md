@@ -1,3 +1,5 @@
+[![CI](https://github.com/parikshitdatir/Interview-IQ/actions/workflows/ci.yml/badge.svg)](https://github.com/parikshitdatir/Interview-IQ/actions/workflows/ci.yml)
+
 # 🤖 Interview IQ
 
 > **AI-powered mock technical interviews with real-time question generation and structured AI evaluation.**
