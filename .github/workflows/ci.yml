@@ -1,6 +1,6 @@
 name: CI
 
-on:
+"on":
   push:
     branches:
       - main
@@ -68,4 +68,5 @@ jobs:
         run: python -c "from app.main import app; print(app.title)"
 
       - name: Verify health endpoint
-        run: python -c "from fastapi.testclient import TestClient; from app.main import app; response = TestClient(app).get('/health'); assert response.status_code == 200; assert response.json() == {'status': 'ok'}"
+        run: >-
+          python -c "from fastapi.testclient import TestClient; from app.main import app; response = TestClient(app).get('/health'); assert response.status_code == 200; assert response.json() == {'status': 'ok'}"
