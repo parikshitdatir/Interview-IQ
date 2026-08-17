@@ -19,6 +19,7 @@ httpcore==1.0.9
 httpx==0.28.1
 idna==3.18
 passlib==1.7.4
+pg8000==1.31.5
 pyasn1==0.6.4
 pycparser==3.0
 pydantic==2.13.4
